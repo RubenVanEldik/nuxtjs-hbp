@@ -1,4 +1,4 @@
-# @nuxtjs/hbp
+# @rubenvaneldik/nuxtjs-hbp
 
 Nuxt.js wrapper for [nhost-js-sdk](https://github.com/nhost/nhost-js-sdk). This wrapper creates global `$auth` and `$storage` methods which make it possible to easily handle auth and storage with [hasura-backend-plus](https://nhost.github.io/hasura-backend-plus/) from everywhere in the app.
 
@@ -6,11 +6,11 @@ Nuxt.js wrapper for [nhost-js-sdk](https://github.com/nhost/nhost-js-sdk). This 
 
 ### Installation
 
-`$ npm install @nuxtjs/hbp`
+`$ npm install @rubenvaneldik/nuxtjs-hbp`
 
 or
 
-`$ yarn add @nuxtjs/hbp`
+`$ yarn add @rubenvaneldik/nuxtjs-hbp`
 
 ### Nuxt.config
 
@@ -22,7 +22,7 @@ Add the module to the modules section and add any
 
 export default {
   modules: [
-    '@nuxtjs/hbp',
+    '@rubenvaneldik/nuxtjs-hbp',
   ],
   hbp: {
     base_url: '', // Required
