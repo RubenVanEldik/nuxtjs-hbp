@@ -11,5 +11,8 @@
     "hasura-backend-plus"
   ],
   "author": "Ruben van Eldik",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nhost-js-sdk": "^2.3.4"
+  }
 }
