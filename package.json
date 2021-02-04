@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "private": false,
   "description": "Nuxt.js wrapper for nhost-js-sdk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubenvaneldik/nuxtjs-hbp.git"
+  },
   "main": "index.js",
   "keywords": [
     "nuxtjs",
