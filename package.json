@@ -1,0 +1,15 @@
+{
+  "name": "@nuxtjs/hbp",
+  "version": "1.0.0",
+  "description": "Nuxt.js wrapper for nhost-js-sdk",
+  "main": "index.js",
+  "keywords": [
+    "nuxtjs",
+    "vue",
+    "hasura",
+    "nhost-js-sdk",
+    "hasura-backend-plus"
+  ],
+  "author": "Ruben van Eldik",
+  "license": "MIT"
+}
