@@ -8,8 +8,8 @@ export default function (context, inject) {
     client_storage_type: '<%=options.client_storage_type %>' || undefined
   }
 
-  const nhost = createClient(options)
+  const { auth, storage } = createClient(options)
 
-  inject('auth', nhost.auth())
-  inject('storage', nhost.storage())
+  inject('auth', auth)
+  inject('storage', storage)
 }
