@@ -1,6 +1,6 @@
 {
   "name": "@rubenvaneldik/nuxtjs-hbp",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "private": false,
   "description": "Nuxt.js wrapper for nhost-js-sdk",
   "repository": {
