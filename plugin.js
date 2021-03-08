@@ -1,4 +1,4 @@
-import nhost from 'nhost-js-sdk'
+import { createClient } from 'nhost-js-sdk'
 
 export default function (context, inject) {
   const options = {
@@ -8,7 +8,7 @@ export default function (context, inject) {
     client_storage_type: '<%=options.client_storage_type %>' || undefined
   }
 
-  nhost.initializeApp(options)
+  const nhost = createClient(options)
 
   inject('auth', nhost.auth())
   inject('storage', nhost.storage())
